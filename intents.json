@@ -1,0 +1,36 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello", "hey", "hi", "greetings", "what's up?"],
+  "responses": ["Hello! How can I help you?", "Hi, what can I do for you?"]
+  },
+  {"tag": "goodbye",
+  "patterns": ["bye", "see you later", "goodbye", "have a good day"],
+  "responses": ["Talk to you later!", "Goodbye!", "Have a nice day!"]
+  },
+  {"tag": "help",
+  "patterns": ["i need help", "can you help me?", "help me", "do you know about"],
+  "responses": ["Sorry, can't help you right now.", "No."]
+  },
+  {"tag": "thanks",
+  "patterns": ["thank you", "thanks for helping me", "thanks", "that's helpful"],
+  "responses": ["My pleasure!", "You're welcome!", "No problem!", "Happy to help!"]
+  },
+  {"tag": "name",
+  "patterns": ["what's your name?", "what should i call you?"],
+  "responses": ["I am your friend!"]
+  },
+  {"tag": "uhm",
+  "patterns": ["how old are you?", "what's your age?", "when is your birthday?", "where do you live", "who made you"],
+  "responses": ["Uhm...", "I don't know..."]
+  },
+  {"tag": "joke",
+  "patterns": ["tell me a joke"],
+  "responses": ["What do you call a man with a rubber toe?\nRoberto!", "What do bees do if they need a ride?\nWait at the buzz stop!",
+    "I just went to an emotional wedding.\nEven the cake was in tiers.", "What's the best thing about Switzerland?\nI don't know, but its flag is a big plus!",
+    "Have you heard of the band 923 Megabytes?\nProbably not, they haven't had a gig yet.", "I want a job cleaning mirrors.\nIt's something I can really see myself doing.",
+    "Did you hear about the claustrophobic astronaut?\nPoor guy really needed some space.", "I'm only familiar with 25 letters of the alphabet.\nI don't know why.",
+    "Why are there fences at cemeteries?\nBecause everyone's always dying to get in.", "Why can't you hear a pterodactyl go to the bathroom?\nBecause the P is silent.",
+    "Did you hear about the guy who won the award for best knock knock joke?\nHe won the no bell prize.", "Why can't a hand be 12 inches long?\nBecause then it'd be a foot.",
+    "What do you call a can opener that doesn't work?\nA can't opener."]
+  }
+]}
